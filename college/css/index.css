@@ -245,6 +245,13 @@ fieldset[disabled] .btn-register.active {
     margin-bottom: 15px;
 }
 
+#pd_four_1{
+    margin: 15px 0;
+}
+
+#pd_four_1 h1{
+    margin-bottom: 15px;
+}
 /***********************产品特色的样式***********************/
 
 /***********************热门课程的样式***********************/

@@ -36,7 +36,10 @@
                     <a href="" class="text-muted">校企合作</a>
                     <a href="" class="text-muted">培训师</a>
                 </div>
-                <div class="top-bar-4 col-md-3">
+                <div class="top-bar-4 col-md-1">
+                    <a href="" class="text-muted">申请合作</a>
+                </div>
+                <div class="top-bar-5 col-md-2">
                     <a class="btn btn-default btn-sm btn-register" href="register.html" role="button">免费注册</a>
                     <a href="#" role="button" class="text-muted" style="margin-left: 10px" data-toggle="modal"
                        data-target="#lk_login">立即登录</a>
@@ -62,11 +65,13 @@
 
             <div class="collapse navbar-collapse" id="lk_nav">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="javascript:;">关于我们 </a></li>
+                    <li class="active"><a href="javascript:">关于我们 </a></li>
                     <li><a href="javascript:">课程介绍</a></li>
                     <li><a href="javascript:">热门课程</a></li>
                     <li><a href="javascript:">名师授课</a></li>
                     <li><a href="javascript:">课堂互动</a></li>
+                    <li><a href="javascript:">在线学习</a></li>
+                    <li><a href="javascript:">实时提问</a></li>
                     <li><a href="javascript:">联系我们</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
@@ -123,7 +128,8 @@
                 <p class="text-muted">
                     松田学院信息科学与技术系集聚强大的IT讲师资源，独特的课程服务模式，通过M2O等新型教育方式，真正解决开发者在成长过程中的各种技术瓶颈，帮助学生在IT职场取得成功。</p>
                 <p class="text-muted">松田学院明星讲师云集有十几位专业实战型高级讲师团队，悉心打造六大综合体系课程，细致且全面，全面助力学生成长。</p>
-                <p class="text-muted">松田学院的信息科学与技术系课程体系完善，包含HTML5+全栈开发、Python+人工智能、JavaEE、Go语言+区块链、UI/UE设计、新媒体、电商运营等系列课程。</p>
+                <p class="text-muted">
+                    松田学院的信息科学与技术系课程体系完善，包含HTML5+全栈开发、Python+人工智能、JavaEE、Go语言+区块链、UI/UE设计、新媒体、电商运营等系列课程。</p>
             </div>
             <div class="col-md-4">
                 <img src="imgs/team.png" alt="核心团队" class="img-rounded img-responsive">
@@ -142,10 +148,16 @@
             <!-- 头部选项 -->
             <div style="overflow: auto;">
                 <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#product1" aria-controls="home" role="tab" data-toggle="tab">在线大学</a></li>
-                    <li role="presentation"><a href="#product2" aria-controls="profile" role="tab" data-toggle="tab">会员专享</a></li>
-                    <li role="presentation"><a href="#product3" aria-controls="messages" role="tab" data-toggle="tab">图书资源</a></li>        
-                    <li class="pull-right hidden-sm hidden-xs"><a href="#" aria-controls="settings" role="tab"  data-toggle="tab">更多</a></li>
+                    <li role="presentation" class="active"><a href="#product1" aria-controls="home" role="tab"
+                                                              data-toggle="tab">在线大学</a></li>
+                    <li role="presentation"><a href="#product2" aria-controls="profile" role="tab" data-toggle="tab">会员专享</a>
+                    </li>
+                    <li role="presentation"><a href="#product3" aria-controls="messages" role="tab" data-toggle="tab">图书资源</a>
+                    </li>
+                    <li role="presentation"><a href="#product4" aria-controls="messages" role="tab" data-toggle="tab">语言奥妙</a>
+                    </li>
+                    <li class="pull-right hidden-sm hidden-xs"><a href="#" aria-controls="settings" role="tab"
+                                                                  data-toggle="tab">更多</a></li>
                 </ul>
             </div>
 
@@ -233,6 +245,21 @@
                         </div>
                     </div>
                 </div>
+                <div role="tabpanel" class="tab-pane fade" id="product4">
+                    <div class="container">
+                        <div class="row">
+                            <div id="pd_four_1" class="col-md-5 pd-left">
+                                <h1 class="text-warning" style="text-align: center">C语言</h1>
+                                <p class="lead">
+                                    C语言是一门面向过程的、抽象化的通用程序设计语言，广泛应用于底层开发。C语言能以简易的方式编译、处理低级存储器。C语言是仅产生少量的机器语言以及不需要任何运行环境支持便能运行的高效率程序设计语言。尽管C语言提供了许多低级处理的功能，但仍然保持着跨平台的特性，以一个标准规格写出的C语言程序可在包括类似嵌入式处理器以及超级计算机等作业平台的许多计算机平台上
+                                    进行编译。</p>
+                            </div>
+                            <div class="col-md-7 hidden-sm hidden-xs">
+                                <img src="imgs/Cyuyan.jpg" alt="" width="550px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -241,7 +268,7 @@
 
 <!--专业团队-->
 
-<div class="container" >
+<div class="container">
     <div class="carousel slide" id="slidershow" data-ride="carousel" data-interval="2000">
         <!--计数器-->
         <ol class="carousel-indicators">
@@ -252,13 +279,13 @@
         <!--图片容器-->
         <div class="carousel-inner">
             <div class="item active">
-                <img src="imgs/zhuanye-2000X410.jpg"/>
+                <img src="imgs/zhuanye-2000X410.jpg" alt=""/>
             </div>
             <div class="item">
-                <img src="imgs/zhuanye-2000X410.jpg"/>
+                <img src="imgs/zhuanye-2000X410.jpg" alt=""/>
             </div>
             <div class="item">
-                <img src="imgs/zhuanye-2000X410.jpg"/>
+                <img src="imgs/zhuanye-2000X410.jpg" alt=""/>
             </div>
             <!--轮播导航-->
             <a href="#slidershow" data-slide="prev" class="left carousel-control" role="button">
